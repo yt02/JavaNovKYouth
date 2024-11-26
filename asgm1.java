@@ -1,4 +1,4 @@
-public class asgm1 {
+public class Asgm1{
     int instanceVariable = 10;
 
     static int staticVariable = 20;
@@ -16,7 +16,7 @@ public class asgm1 {
         System.out.println("Static Variable: " + staticVariable);
     }
 public static void main(String[] args) {
-    JavaVariableScope variableScope = new JavaVariableScope();
+    Asgm1 variableScope = new Asgm1();
     variableScope.showInstanceVariable();
     variableScope.showLocalVariable();
 }
