@@ -1,4 +1,4 @@
-public class JavaVariableScope {
+public class asgm1 {
     int instanceVariable = 10;
 
     static int staticVariable = 20;
