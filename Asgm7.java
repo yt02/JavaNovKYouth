@@ -23,9 +23,10 @@ public class Asgm7 {
                 throw new AssertionError();
         }
         int[][] matrix = new int[i][j];
+        System.out.println("Matrix " + i + "*" + j);
         for(int x=0; x<i;x++){
             for (int y = 0; y < j; y++) {
-                System.out.print("Enter number for [" + x + "]" + "[" + y  + "]: ");
+                System.out.print("Enter number for matrix [" + x + "]" + "[" + y  + "]: ");
                 matrix[x][y] = scan.nextInt();
 
             }
@@ -35,7 +36,7 @@ public class Asgm7 {
         System.out.println("Matrix:");
         for (int x = 0; x < i; x++) {
             for (int y = 0; y < j; y++) {
-                System.out.print(matrix[x][y] + " ");
+                System.out.print(matrix[x][y] + "    ");
             }
             System.out.println();
         }
