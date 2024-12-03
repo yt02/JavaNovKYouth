@@ -16,7 +16,7 @@ public class Asgm7 {
 
             case 2:
                 i=2;
-                j=2;
+                j=3;
                 break;
 
             default:
