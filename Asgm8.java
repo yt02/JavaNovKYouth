@@ -53,16 +53,16 @@ public class Asgm8 {
     info.setName(scan.nextLine());
     System.out.print("Enter your age: ");
     info.setAge(scan.nextInt());
-    System.out.print("Enter your height in cm: ");
+    System.out.print("Enter your height in m: ");
     info.setHeight(scan.nextDouble());
-    System.out.print("Enter your weight: ");
+    System.out.print("Enter your weight in kg: ");
     info.setWeight(scan.nextDouble());
     System.out.println();
 
     System.out.println("The person name is " 
     + info.getName() + " and he/she is " 
-    + info.getAge() + "years old and his/her BMI is  "  
-    + ((info.getHeight()-100))/info.getWeight());
+    + info.getAge() + " years old and his/her BMI is  "  
+    + (info.getWeight()/ Math.pow((info.getHeight()), 2)));
    
     System.out.println();
 }
