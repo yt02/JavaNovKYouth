@@ -10,7 +10,7 @@ public class Asgm3 {
            }
            else if(i==26)
             break;
-            
+
            else
            System.out.println("Number " + i);
             
